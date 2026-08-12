@@ -22,4 +22,4 @@ class CustomUserTests(TestCase):
         self.assertEquals(user.email, "admin@gmail.com")
         self.assertTrue(user.is_active)
         self.assertTrue(user.is_staff)
-        self.assertTrue(user.is_superuser) #
+        self.assertTrue(user.is_superuser) #.
