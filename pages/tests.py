@@ -11,4 +11,4 @@ class HomepageTests(SimpleTestCase):
 # check the named url correctly reverses back to a page
     def test_page_exists_at_named_url(self):
         response = self.client.get(reverse('home'))
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 200)#
