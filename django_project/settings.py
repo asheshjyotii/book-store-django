@@ -91,7 +91,7 @@ DATABASES = { #new
         'USER': 'postgres', #user name.
         'PASSWORD': 'postgres', #password
         'HOST': 'db', #the database service name
-        'PORT': 5432, #default postgres port
+        'PORT': 5432, #default postgres. port
     }
 }
 
